@@ -3,7 +3,7 @@
   "id": "azure-devops-pipelines-sleep",
   "publisher": "LeslyBernaola",
   "name": "Sleep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Azure Devops pipelines tools.",
   "tags": [
     "Sleep",
@@ -30,6 +30,11 @@
     "color": "rgb(87, 168, 158)",
     "theme": "dark"
   },
+  "files": [{
+    "path": "src",
+    "addressable": true
+}
+],
   "content": {
     "details": {
       "path": "overview.md"
@@ -55,7 +60,7 @@
         "ms.vss-distributed-task.tasks"
       ],
       "properties": {
-        "name": "Task"
+        "name": "src"
       }
     }
   ]
