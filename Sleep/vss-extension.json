@@ -1,8 +1,8 @@
 {
   "manifestVersion": 1,
-  "id": "azure-devops-pipelines-tools",
+  "id": "azure-devops-pipelines-sleep",
   "publisher": "LeslyBernaola",
-  "name": "Azure DevOps pipelines tools",
+  "name": "Sleep",
   "version": "1.0.0",
   "description": "Azure Devops pipelines tools.",
   "tags": [
@@ -53,10 +53,7 @@
       "type": "ms.vss-distributed-task.task",
       "targets": [
         "ms.vss-distributed-task.tasks"
-      ],
-      "properties": {
-        "name": "Sleep"
-      }
+      ]
     }
   ]
 }
