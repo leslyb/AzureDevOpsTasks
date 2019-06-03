@@ -3,8 +3,8 @@
   "id": "azure-devops-pipelines-sleep",
   "publisher": "LeslyBernaola",
   "name": "Sleep",
-  "version": "1.0.1",
-  "description": "Azure Devops pipelines tools.",
+  "version": "1.0.2",
+  "description": "Stops the build or release execution for a given period of time (in seconds)",
   "tags": [
     "Sleep",
     "Pause",
@@ -30,11 +30,16 @@
     "color": "rgb(87, 168, 158)",
     "theme": "dark"
   },
-  "files": [{
-    "path": "src",
-    "addressable": true
-}
-],
+  "files": [
+    {
+      "path": "src",
+      "addressable": true
+    },
+    {
+      "path": "images",
+      "addressable": true
+    }
+  ],
   "content": {
     "details": {
       "path": "overview.md"

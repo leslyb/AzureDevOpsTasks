@@ -1,4 +1,3 @@
-![configure-task](images/extension-icon.png)
 This extension provides build and release tools for Azure DevOps pipelines, it can be dowloaded from Azure DevOps Extensions [Visual Studio Marketplace](https://marketplace.visualstudio.com).
 
 ## How to use 
